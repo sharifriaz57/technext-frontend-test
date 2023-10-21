@@ -1,0 +1,57 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=15991");
+
+:root {
+  font-family: "Barlow", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+  color: $gray-700;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin-bottom: 0;
+  color: $gray-900;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.text-gray-600 {
+  color: $gray-600;
+}
+
+.text-gray-700 {
+  color: $gray-700;
+}
+
+.text-gray-900 {
+  color: $gray-900;
+}
