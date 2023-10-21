@@ -7,6 +7,12 @@ export const AppState = {
   filteredSpaceFlights: [],
   page: JSON.parse(storage) || 1,
   totalPages: 1,
+  searchParams: {
+    rocket: '',
+    isUpcoming: false,
+    launchStatus: '',
+    launchDate: ''
+  }
 };
 
 // // Context

@@ -1,4 +1,4 @@
-import SearchFilters from "./SearchFilters"
+import SearchFilters from './SearchFilters';
 
 const Header = () => {
     return (
